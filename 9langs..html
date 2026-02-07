@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3A Tour & Travel</title>
+<style>
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+header { background:#2E86C1; color:white; padding:20px; text-align:center; }
+nav { display:flex; justify-content:flex-end; padding:10px; background:#2980B9; }
+nav select { padding:5px; }
+section { padding:20px; }
+.carousel { display:flex; overflow-x:auto; scroll-behavior:smooth; }
+.carousel-item { min-width:300px; margin-right:10px; background:#f0f0f0; border-radius:10px; padding:10px; }
+form { display:flex; flex-direction:column; max-width:400px; margin:auto; }
+input, textarea, select, button { margin:5px 0; padding:10px; border-radius:5px; border:1px solid #ccc; }
+button { background:#2E86C1; color:white; border:none; cursor:pointer; }
+button:hover { background:#1B4F72; }
+.footer { background:#2980B9; color:white; text-align:center; padding:10px; }
+</style>
+</head>
+<body>
+
+<header>
+<h1 id="heroTitle">Explore Ethiopia with 3A Tour & Travel</h1>
+<p id="heroDesc">Discover cultural, natural, and adventure destinations across Ethiopia</p>
+</header>
+
+<nav>
+<select id="languageSelect">
+<option value="en">English</option>
+<option value="am">Amharic</option>
+<option value="om">Oromo</option>
+<option value="ti">Tigrinya</option>
+<option value="so">Somali</option>
+<option value="es">Spanish</option>
+<option value="fr">French</option>
+<option value="de">German</option>
+<option value="zh">Chinese</option>
+</select>
+</nav>
+
+<section>
+<h2 id="routesTitle">Our Main Routes</h2>
+<div id="routesContainer"></div>
+</section>
+    
+<section>
+<h2 id="contactTitle">Contact Us</h2>
+<form id="contactForm">
+<input type="text" id="name" placeholder="Name" required>
+<input type="email" id="email" placeholder="Email" required>
+<textarea id="message" placeholder="Message" required></textarea>
+<button type="submit" id="submitBtn">Send</button>
+</form>
+</section>
+
+<div class="footer" id="footerText">3A Tour & Travel © 2026 | Email: abdulselamnezif1@gmail.com | Phone: 0940320935</div>
+
+<script>
+const translations = {
+heroTitle:{en:"Explore Ethiopia with 3A Tour & Travel", am:"ከ3A ቱርና ትራቭል ጋር ኢትዮጵያን ያስሱ", om:"Itoophiyaa 3A Tour & Travel waliin Dubbisi", ti:"ከ3A ቱርንና ትራቭል ጋር ኢትዮጵያን ይጎብኙ", so:"Soo booqo Itoobiya 3A Tour & Travel", es:"Explora Etiopía con 3A Tour & Travel", fr:"Découvrez l'Éthiopie avec 3A Tour & Travel", de:"Entdecken Sie Äthiopien mit 3A Tour & Travel", zh:"与3A旅游探索埃塞俄比亚"},
+heroDesc:{en:"Discover cultural, natural, and adventure destinations across Ethiopia", am:"ባህላዊ፣ ተፈጥሮ፣ እና የፈረስ ጉዞ መዳረሻዎችን ያግኙ", om:"Bakka aadaa, uumamaa fi imala bashannanaa Itoophiyaa keessa jiran", ti:"ባህላዊ፣ ተፈጥሮ፣ እና የፈረስ ጉዞ መዳረሻዎችን ይጎብኙ", so:"Soo ogow meelaha dhaqanka, dabiiciga iyo dalxiiska Itoobiya", es:"Descubre destinos culturales, naturales y de aventura en Etiopía", fr:"Découvrez des destinations culturelles, naturelles et d'aventure en Éthiopie", de:"Entdecken Sie kulturelle, natürliche und Abenteuerziele in Äthiopien", zh:"探索埃塞俄比亚的文化、自然和冒险目的地"},
+contactTitle:{en:"Contact Us", am:"አግኙን", om:"Nu qunnami", ti:"አግኙን", so:"Nala soo xiriir", es:"Contáctenos", fr:"Contactez-nous", de:"Kontaktieren Sie uns", zh:"联系我们"},
+submitBtn:{en:"Send", am:"አስገባ", om:"Ergaa", ti:"አስገባ", so:"Dir", es:"Enviar", fr:"Envoyer", de:"Senden", zh:"发送"}
+};
+
+const attractionsData = {
+northern:[
+{title:{en:"Lalibela Rock Churches", am:"ላሊበላ ቅዱሳን ቤተ ክርስቲያኖች", om:"Lalibela Caasa Waaqayyoo", ti:"ላሊበላ ቤተ ክርስቲያኖች", so:"Kaniisadaha dhagaxa Lalibela", es:"Iglesias de roca de Lalibela", fr:"Églises rupestres de Lalibela", de:"Felsenkirchen von Lalibela", zh:"拉利贝拉岩石教堂"}, desc:{en:"11 medieval monolithic cave churches", am:"11 ከመካከለኛው ዘመን የተሠሩ ቅንጹ ቤተ ክርስቲያኖች", om:"11 koorniyaa dhagaa keessaa kan ijaarame", ti:"11 ቅንጹ ቤተ ክርስቲያኖች", so:"11 kaniisadood oo qalcad dhexe ah", es:"11 iglesias monolíticas medievales", fr:"11 églises monolithiques médiévales", de:"11 mittelalterliche monolithische Höhlenkirchen", zh:"11座中世纪单体岩洞教堂"}, img:"https://images.unsplash.com/photo-1603374932314-3b6d31e46b19?auto=format&fit=crop&w=500&q=60"},
+{title:{en:"Axum Obelisks", am:"አክሱም ኦቤሊስኮች", om:"Axum Obelisks", ti:"አክሱም ኦቤሊስኮች", so:"Axum Obelisks", es:"Obeliscos de Axum", fr:"Obélisques d'Axoum", de:"Axum-Obelisken", zh:"阿克苏姆方尖碑"}, desc:{en:"Ancient stone obelisks and ruins", am:"የጥንታዊ ድንጋይ ኦቤሊስኮች እና ሐውልቶች", om:"Dhagaa durii fi ijaarsa durii", ti:"ድንጋይ ኦቤሊስኮች እና ቅንጹ", so:"Qalcad iyo dhagaxyo qadiimi ah", es:"Antiguos obeliscos y ruinas de piedra", fr:"Anciens obélisques et ruines en pierre", de:"Alte Steinobeliske und Ruinen", zh:"古老的石制方尖碑和遗址"}, img:"https://images.unsplash.com/photo-1592438746077-6dc7c90c4f5a?auto=format&fit=crop&w=500&q=60"}
+],
+southern:[
+{title:{en:"Omo Valley Tribes", am:"የኦሞ ቸርቻ ሕዝቦች", om:"Hawaasa Omo", ti:"የኦሞ ሕዝቦች", so:"Qowmiyadaha Dooxada Omo", es:"Tribus del Valle de Omo", fr:"Tribus de la vallée de l'Omo", de:"Stämme im Omo-Tal", zh:"奥莫河谷部落"}, desc:{en:"Colorful tribal cultures along the Omo River", am:"በኦሞ ወንዝ ዳር ላይ ባህላዊ ቀለማት ሕዝቦች", om:"Aadaawwan garaagaraa laga Omo keessa jiran", ti:"ባህላዊ ቀለማት ሕዝቦች በኦሞ ወንዝ", so:"Dhaqamo dhaqameedyo midabo leh", es:"Culturas tribales coloridas a lo largo del río Omo", fr:"Cultures tribales colorées le long du fleuve Omo", de:"Bunte Stammeskulturen entlang des Omo-Flusses", zh:"奥莫河沿岸多彩的部落文化"}, img:"https://images.unsplash.com/photo-1560785499-27a6b2e21cd3?auto=format&fit=crop&w=500&q=60"}
+]};
+
+let currentLang = 'en';
+
+const routesContainer = document.getElementById('routesContainer');
+
+function loadRoutes(){
+routesContainer.innerHTML='';
+for(const route in attractionsData){
+  const routeDiv = document.createElement('div');
+  routeDiv.innerHTML=`<h3>${route.charAt(0).toUpperCase()+route.slice(1)}</h3><div class='carousel'>${attractionsData[route].map(attraction=>`<div class='carousel-item'><img src='${attraction.img}' style='width:100%;border-radius:10px;'><h4>${attraction.title[currentLang]}</h4><p>${attraction.desc[currentLang]}</p></div>`).join('')}</div>`;
+  routesContainer.appendChild(routeDiv);
+}
+}
+
+function translateText(){
+document.getElementById('heroTitle').innerText = translations.heroTitle[currentLang];
+document.getElementById('heroDesc').innerText = translations.heroDesc[currentLang];
+document.getElementById('contactTitle').innerText = translations.contactTitle[currentLang];
+document.getElementById('submitBtn').innerText = translations.submitBtn[currentLang];
+loadRoutes();
+}
+
+document.getElementById('languageSelect').addEventListener('change', e=>{
+currentLang = e.target.value;
+translateText();
+});
+
+document.getElementById('contactForm').addEventListener('submit', e=>{
+e.preventDefault();
+alert('Message sent!');
+document.getElementById('contactForm').reset();
+});
+
+loadRoutes();
+</script>
+
