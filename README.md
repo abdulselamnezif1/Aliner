@@ -1,8 +1,8 @@
 # Aliner
 Explore ethiopia with Aliner is dedicated to offer you unforgetable Tour and travel experiense. 
-phone no 0940320935
+phone no 0940320935 <br>
 email abdulselamnezif1@gmail.com
-<img width="200" height="300" alt="Aliner Tour and travell" src="https://github.com/user-attachments/assets/fee71348-e0a5-4912-8bf8-8761a1f0e819" />
+<img width="100" height="100" alt="Aliner Tour and travell" src="https://github.com/user-attachments/assets/fee71348-e0a5-4912-8bf8-8761a1f0e819" />
 # Our values
 Vision
 To be the most trusted, respected and reliable tour operator in Ethiopia, delivering excellence and to continuously create new opportunities for growth in our strategic business.
