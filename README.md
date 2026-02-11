@@ -1,4 +1,4 @@
-
+[index.html](https://github.com/user-attachments/files/25230695/index.html)
 ![LOGO](https://github.com/user-attachments/assets/8305e913-ce45-4d86-849d-695a82998f4c) #  Aliner general trading. plc
 Explore ethiopia with Aliner.
 Aliner is dedicated to offer you unforgetable Tour and travel experiense throughout ethiopia.
@@ -26,6 +26,1283 @@ email:-abdulselamnezif1@gmail.com <br>
 scan this qrcode for detail <img width="50" height="50" alt="3atour and travel" src="https://github.com/user-attachments/assets/76ec7484-e2d1-4522-8503-791ed12c744d" /> <br>
 https://www.alinergeneraltradingplc.strikingly.com <br>
 scan this Qr code for detail <img width="50" height="50" alt="Aliner Tour and travell" src="https://github.com/user-attachments/assets/fee71348-e0a5-4912-8bf8-8761a1f0e819" />
+<!DOCTYPE html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3atourandtravel -Explore Land of Origins</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <style>
+        :root {
+            --primary-green: #2E7D32;
+            --primary-yellow: #FBC02D;
+            --primary-red: #D32F2F;
+            --ethiopia-green: #078930;
+            --ethiopia-yellow: #FEDD00;
+            --ethiopia-red: #DA121A;
+            --ethiopia-blue: #0F47AF;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--ethiopia-yellow) !important;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://images.unsplash.com/photo-1559561738-13c6d2266b0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 120px 0 80px;
+            margin-top: 56px;
+        }
+        
+        .section-title {
+            color: var(--ethiopia-green);
+            position: relative;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 3px;
+            background: var(--ethiopia-yellow);
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .route-dropdown .dropdown-menu {
+            border-radius: 0;
+            border: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .route-dropdown .dropdown-item {
+            padding: 12px 20px;
+            border-left: 4px solid transparent;
+            transition: all 0.3s;
+        }
+        
+        .route-dropdown .dropdown-item:hover {
+            background-color: #f8f9fa;
+            border-left: 4px solid var(--ethiopia-green);
+            scroll-padding-inline: 24px;
+        }
+        
+        .attraction-card {
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            height: 100%;
+            border: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .attraction-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .attraction-img {
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .carousel-section {
+            background-color: #f1f8e9;
+            padding: 60px 0;
+        }
+        
+        .carousel-item {
+            height: 500px;
+        }
+        
+        .carousel-item img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 5px;
+            bottom: 40px;
+        }
+        
+        .footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 60px 0 20px;
+        }
+        
+        .footer h5 {
+            color: var(--ethiopia-yellow);
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer h5:after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 2px;
+            background: var(--ethiopia-green);
+            bottom: 0;
+            left: 0;
+        }
+        
+        .contact-info li {
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .contact-info li i {
+            position: absolute;
+            left: 0;
+            top: 5px;
+            color: var(--ethiopia-yellow);
+        }
+        
+        .social-icons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: #333;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 10px;
+            transition: all 0.3s;
+        }
+        
+        .social-icons a:hover {
+            background: var(--ethiopia-green);
+            transform: translateY(-5px);
+        }
+        
+        .copyright {
+            border-top: 1px solid #333;
+            padding-top: 20px;
+            margin-top: 40px;
+            text-align: center;
+            color: #aaa;
+            font-size: 14px;
+        }
+        
+        .pagination-container {
+            margin: 40px 0;
+        }
+        
+        .page-link {
+            color: var(--ethiopia-green);
+            border: 1px solid #dee2e6;
+        }
+        
+        .page-link:hover {
+            background-color: var(--ethiopia-green);
+            color: white;
+            border-color: var(--ethiopia-green);
+        }
+        
+        .page-item.active .page-link {
+            background-color: var(--ethiopia-green);
+            border-color: var(--ethiopia-green);
+        }
+        
+        .dropdown-item.northern { border-left-color: #0F47AF !important; }
+        .dropdown-item.southern { border-left-color: #078930 !important; }
+        .dropdown-item.eastern { border-left-color: #FEDD00 !important; }
+        .dropdown-item.western { border-left-color: #DA121A !important; }
+        .dropdown-item.central { border-left-color: #8E24AA !important; }
+        
+        .navbar {
+            background: linear-gradient(to right, #078930, #0F47AF, #DA121A);
+            padding: 10px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .nav-link {
+            color: gold(16, 9, 9) !important;
+            font-weight: 500;
+        }
+        .nav-link:hover {
+            color: purple(16, 9, 9) !important;
+            font-weight: 600;
+            padding: 12px;
+            transform: translateY(-5px);
+            
+        }
+        .nav-link:active {
+            color: yello(16, 9, 9) !important;
+            font-weight: 600;
+            padding: 12px;
+            transform: translateY(-5px);
+            
+        }
+        
+        /* Message Section Styles */
+        .message-section {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 20px 0;
+            border-left: 5px solid var(--ethiopia-green);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .message-section h4 {
+            color: var(--ethiopia-green);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .message-section h4 i {
+            margin-right: 10px;
+            background: var(--ethiopia-yellow);
+            color: #333;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .phone-display {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--ethiopia-blue);
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .phone-display i {
+            margin-right: 10px;
+            color: var(--ethiopia-green);
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .btn-call {
+            background: linear-gradient(to right, #078930, #0F47AF);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+        
+        .btn-call:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(7, 137, 48, 0.3);
+            color: white;
+        }
+        
+        .btn-message {
+            background: linear-gradient(to right, #FEDD00, #FF9800);
+            color: #333;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+        
+        .btn-message:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(254, 221, 0, 0.3);
+            color: #333;
+        }
+        
+        .btn-call i, .btn-message i {
+            margin-right: 8px;
+            font-size: 1.2rem;
+        }
+        
+        .whatsapp-btn {
+            background: #25D366;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+        
+        .whatsapp-btn:hover {
+            background: #128C7E;
+            color: blueviolet;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+        }
+        
+        .contact-form {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            margin-top: 20px;
+        }
+        
+        .contact-form h5 {
+            color: var(--ethiopia-green);
+            margin-bottom: 20px;
+        }
+        
+        .form-control:focus {
+            border-color: var(--ethiopia-green);
+            box-shadow: 0 0 0 0.2rem rgba(7, 137, 48, 0.25);
+        }
+        
+        .message-notice {
+            background: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .message-notice i {
+            color: #2196F3;
+            margin-right: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 80px 0 40px;
+            }
+            
+            .carousel-item {
+                height: 300px;
+            }
+            
+            .carousel-caption {
+                bottom: 10px;
+                padding: 10px;
+            }
+            
+            .carousel-caption h3 {
+                font-size: 1.2rem;
+            }
+            
+            .attraction-card {
+                margin-bottom: 20px;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+            }
+            
+            .phone-display {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-globe-africa me-2"></i>3atourandtravel &nbsp;&nbsp;&nbsp;&nbsp;
+                            <i class="fas fa-phone-volume"></i> +251 940320935
+                            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About us">Aboutus</a>
+                    </li>
+                    <li class="nav-item dropdown route-dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Tour Routes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item northern" href="#northern">Northern Historical Route</a></li>
+                            <li><a class="dropdown-item southern" href="#southern">Southern Cultural Route</a></li>
+                            <li><a class="dropdown-item eastern" href="#eastern">Eastern Desert Route</a></li>
+                            <li><a class="dropdown-item western" href="#western">Western Natural Route</a></li>
+                            <li><a class="dropdown-item central" href="#central">Central Highlands Route</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#attractions">Attractions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Destinations">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Transportation">Transportation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">Discover the Land of Origins</h1>
+                    <p class="lead mb-4">Ethiopia, a country with a rich history dating back to the dawn of humanity, stunning landscapes, diverse cultures, and unique traditions waiting to be explored.</p>
+                    <a href="#attractions" class="btn btn-lg btn-warning">Explore Attractions</a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="bg-light p-4 rounded text-dark">
+                        <h4 style="color: #0F47AF;">Quick Links</h4>
+                        <div class="d-grid gap-2 mt-3">
+                            <a href="#northern" class="btn btn-outline-primary">Northern Route</a>
+                            <a href="#southern" class="btn btn-outline-success">Southern Route</a>
+                            <a href="#eastern" class="btn btn-outline-warning">Eastern Route</a>
+                            <a href="#western" class="btn btn-outline-danger">Western Route</a>
+                            <a href="#central" class="btn btn-outline-purple" style="border-color: #8E24AA; color: #8E24AA;">Central Route</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attractions Carousel -->
+    <section class="carousel-section">
+        <div class="container">
+            <h2 class="section-title">Ethiopia's Top Attractions</h2>
+            
+            <div id="attractionsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#attractionsCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#attractionsCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#attractionsCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#attractionsCarousel" data-bs-slide-to="3"></button>
+                </div>
+                <div class="carousel-inner rounded">
+                    <div class="carousel-item active">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM1AhANaeY1SBY3gw0G5UeNSkInFsA9Pic0w&srb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Lalibela Rock Churches">
+                        <div class="carousel-caption">
+                            <h3>Rock-Hewn Churches of Lalibela</h3>
+                            <p>11 monolithic churches carved out of rock in the 12th century, often called the "Eighth Wonder of the World".</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWBgAT_B7DS4w-XVxgIvoO4onoATTDrQZwDQ&srb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Simien Mountains">
+                        <div class="carousel-caption">
+                            <h3>Semien Mountains National Park</h3>
+                            <p>A UNESCO World Heritage Site with dramatic landscapes, endemic wildlife, and Africa's highest peak.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI8VyZum7DroOA4dngwR-Nd7pF_3GqQtGItA&srb=-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Danakil Depression">
+                        <div class="carousel-caption">
+                            <h3>Denakil Depression</h3>
+                            <p>One of the hottest and lowest places on Earth, with colorful hydrothermal fields and salt plains.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCU-ggORYuOTG4RmjxNuswHOp30Xlp3LvbTQ&srb=-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Omo Valley Tribes">
+                        <div class="carousel-caption">
+                            <h3>Omo Valley Tribes</h3>
+                            <p>Home to diverse indigenous cultures with unique traditions, body painting, and rituals.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#attractionsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#attractionsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attractions with Pagination -->
+    <section class="py-5" id="attractions">
+        <div class="container">
+            <h2 class="section-title">Explore by Region</h2>
+            
+            <!-- Route Tabs -->
+            <ul class="nav nav-tabs justify-content-center mb-4" id="routeTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="northern-tab" data-bs-toggle="tab" data-bs-target="#northern" type="button">Northern Route</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="southern-tab" data-bs-toggle="tab" data-bs-target="#southern" type="button">Southern Route</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="eastern-tab" data-bs-toggle="tab" data-bs-target="#eastern" type="button">Eastern Route</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="western-tab" data-bs-toggle="tab" data-bs-target="#western" type="button">Western Route</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="central-tab" data-bs-toggle="tab" data-bs-target="#central" type="button">Central Route</button>
+                </li>
+            </ul>
+            
+            <!-- Tab Content -->
+            <div class="tab-content" id="routeTabContent">
+                <!-- Northern Route -->
+                <div class="tab-pane fade show active" id="northern" role="tabpanel">
+                    <div class="row" id="northern-content">
+                        <!-- Content will be loaded via JavaScript pagination -->
+                    </div>
+                </div>
+                
+                <!-- Southern Route -->
+                <div class="tab-pane fade" id="southern" role="tabpanel">
+                    <div class="row" id="southern-content">
+                        <!-- Content will be loaded via JavaScript pagination -->
+                    </div>
+                </div>
+                
+                <!-- Eastern Route -->
+                <div class="tab-pane fade" id="eastern" role="tabpanel">
+                    <div class="row" id="eastern-content">
+                        <!-- Content will be loaded via JavaScript pagination -->
+                    </div>
+                </div>
+                
+                <!-- Western Route -->
+                <div class="tab-pane fade" id="western" role="tabpanel">
+                    <div class="row" id="western-content">
+                        <!-- Content will be loaded via JavaScript pagination -->
+                    </div>
+                </div>
+                
+                <!-- Central Route -->
+                <div class="tab-pane fade" id="central" role="tabpanel">
+                    <div class="row" id="central-content">
+                        <!-- Content will be loaded via JavaScript pagination -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pagination -->
+            <div class="pagination-container">
+                <nav aria-label="Attractions pagination">
+                    <ul class="pagination justify-content-center" id="pagination-controls">
+                        <!-- Pagination will be generated by JavaScript -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message/Contact Section -->
+    <section class="py-5" id="contact" style="background-color: #f8f9fa;">
+        <div class="container">
+            <h2 class="section-title">Contact & Message Us</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <!-- Message Section -->
+                    <div class="message-section">
+                        <h4><i class="fas fa-comment-alt"></i> Direct Message</h4>
+                        <p class="mb-3">Contact us directly via phone call or message for immediate assistance with travel inquiries, bookings, or questions about Ethiopian attractions.</p>
+                        
+                        <div class="phone-display">
+                            <i class="fas fa-phone-volume"></i> +251 940320935
+                        </div>
+                        
+                        <div class="action-buttons">
+                            <a href="tel:+251 940320935" class="btn btn-call">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            
+                            <a href="sms:+251 940320935" class="btn btn-message">
+                                <i class="fas fa-sms"></i> Send SMS
+                            </a>
+                            
+                            <a href="https://wa.me/251940320935?text=Hello%2C%20I%20am%20interested%20in%20Ethiopia%20travel%20information" target="_blank" class="btn whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                        </div>
+                        
+                        <div class="message-notice mt-4">
+                            <i class="fas fa-info-circle"></i>
+                            <strong>Note:</strong> Our phone line is available from 8:00 AM to 8:00 PM (EAT). For after-hours inquiries, please send us a message and we'll respond as soon as possible.
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <h5>Send a Message</h5>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success w-100">
+                                <i class="fas fa-paper-plane me-2"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4">
+                    <!-- Contact Information -->
+                    <div class="contact-form">
+                        <h5>Contact Information</h5>
+                        <ul class="list-unstyled contact-info">
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <strong>Email:</strong><br>
+                                <a href="mailto:abdulselamnezif1@gmail.com">abdulselamnezif1@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-globe"></i>
+                                <strong>Websites:</strong><br>
+                                <a href="https://alinergeneraltradingplc.strikingly.com" target="_http://www.alinergeneraltradingplc.strikingly.com">alinergeneraltradingplc.strikingly.com</a>
+                            <li>
+                                <strong>Websites:</strong><br>
+                                    <i class="fa fa-globe"></i>
+                                <a href="https://alinergeneraltradingplc.strikingly.com" target="_http://www.3atourandtrave.wordpress.com">3atourandtrave.wordpress.com</a>
+                                </li>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <strong>Address:</strong><br>
+                                Addis Ababa, Ethiopia
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <strong>Business Hours:</strong><br>
+                                Monday - Friday: 8:00 AM - 8:00 PM<br>
+                                Saturday: 9:00 AM - 6:00 PM<br>
+                                Sunday: 10:00 AM - 4:00 PM
+                            </li>
+                        </ul>
+                        
+                        <div class="mt-4">
+                            <h6>Social Media</h6>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-telegram"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h6>Quick Response Times</h6>
+                            <div class="progress mt-2" style="height: 10px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 95%">Phone Calls: 95% within 1 minute</div>
+                            </div>
+                            <div class="progress mt-2" style="height: 10px;">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 85%">Messages: 85% within 1 hour</div>
+                            </div>
+                            <div class="progress mt-2" style="height: 10px;">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 90%">Emails: 90% within 24 hours</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>About Ethiopia</h5>
+                    <p>Ethiopia is Africa's oldest independent country and the only one to never have been colonized. With its unique alphabet, calendar, and coffee culture, it offers an authentic African experience unlike any other.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>Tour Routes</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#northern" class="text-white-50">Northern Route</a></li>
+                                <li><a href="#southern" class="text-white-50">Southern Route</a></li>
+                                <li><a href="#eastern" class="text-white-50"> Eastern Route</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#western" class="text-white-50">Western Route</a></li>
+                                <li><a href="#central" class="text-white-50">Central Route</a></li>
+                                <li><a href="#attractions" class="text-white-50">All Attractions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <h5 class="mt-4">Partnership</h5>
+                    <p>This website is presented in partnership with Aliner General Trading PLC, promoting Ethiopian tourism and cultural exchange.</p>
+                    <a href="https://alinergeneraltradingplc.strikingly.com" target="_blank" class="btn btn-sm btn-outline-warning">Visit Our Partner</a>
+                </div>
+                
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe for updates on Ethiopian travel opportunities, special offers, and cultural events.</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Your email" id="newsletterEmail">
+                        <button class="btn btn-warning" type="button" id="subscribeBtn">Subscribe</button>
+                    </div>
+                    
+                    <h5 class="mt-4">Emergency Contact</h5>
+                    <p>For urgent travel assistance within Ethiopia:</p>
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-phone-alt text-warning me-2"></i>
+                        <a href="tel:0940320935" class="text-white">+251 940320935</a>
+                        <span class="ms-2 badge bg-danger">24/7 Emergency</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; Aliner Tour and Travel Ethiopia. All rights reserved. | Designed by Aliner General Trading PLC | Phone: +251 940320935 | Email: abdulselamnezif1@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        // Attractions data for each route
+        const attractionsData = { 
+            northern: [
+                {id: 1, title: "Lalibela Rock Churches", desc: "11 medieval monolithic cave churches", img: "https://assets.vogue.com/photos/5ac2ae1c8a4e154a0226cc06/4:3/w_2000,h_1500,c_limit/00-promo-image-lalibela-ethiopia-is-the-next-machu-picchu.jpg.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 2, title: "Axum Obelisks", desc: "Ancient stone obelisks and ruins", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXZBadu2Qo15EFj6xs9DjJrAjaJHu16cST8Q&s.3&auto=format&fit=crop&w=500&q=60"},
+                {id: 3, title: "Gondar Castles", desc: "17th century royal enclosure", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNnB5JBw2ttulfHjK-ScnjrDC2Scfl_-sEkg&s.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 4, title: "Simien Mountains", desc: "Dramatic mountain landscapes", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjBqmsdzW9PJYjqZqO0HFGvbbUGVEN8jwCWw&s.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 5, title: "Bahir Dar & Lake Tana", desc: "Source of the Blue Nile", img: "https://imgix.brilliant-ethiopia.com/pelicans-on-lake-tana-3-1.JPG?auto=format,enhance,compress&fit=crop&crop=entropy,faces,focalpoint&w=1880&h=740&q=30.3&auto=format&fit=crop&w=500&q=60"},
+                {id: 6, title: "Tigray Rock Churches", desc: "Ancient churches carved into cliffs", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBGjHAV-Wd_NMEJS8MxopmoS75rZlFrwz9Q&s.3&auto=format&fit=crop&w=500&q=60"}
+            ],
+            southern: [
+                {id: 1, title: "konso cultural landscape", desc: "Indigenous cultures and traditions", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVLvBf7B7Wt-Zf40x4wXdYAQBBkPKBdaudPvwa7bkEXg&s.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 2, title: "Omo tribe", desc: "UNESCO World Heritage terraced hills", img:"/mnt/chromeos/MyFiles/Downloads (2)/2026/aaa/Gallery/conso cultural landscape.jpg=rb-4-4.0.3&auto=format&fit=crop&w=500&q=60"},
+                {id: 3, title: "Arba Minch & Nechisar Park", desc: "Bridge of God and wildlife", img: "https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"},
+                {id: 4, title: "Dorze Village", desc: "Unique bamboo houses and weaving", img: "https://images.unsplash.com/photo-1593693399773-5d33007d830c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 5, title: "Mago National Park", desc: "Wildlife and Mursi tribe", img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"},
+                {id: 6, title: "Konso Cultural Landscape", desc: "UNESCO terraced agriculture", img: "https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"}
+            ],
+            eastern: [
+                {id: 1, title: "Danakil Depression", desc: "Hottest place on Earth", img: "https://images.unsplash.com/photo-1621451537084-482c73073a0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 2, title: "Erta Ale Volcano", desc: "Active lava lake volcano", img: "https://images.unsplash.com/photo-1621451537084-482c73073a0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"},
+                {id: 3, title: "Harar Jugol", desc: "Walled city with hyena men", img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 4, title: "Awash National Park", desc: "Wildlife and waterfalls", img: "https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 5, title: "Dire Dawa", desc: "Historical railway town", img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"},
+                {id: 6, title: "Dallol Sulfur Springs", desc: "Colorful mineral formations", img: "https://images.unsplash.com/photo-1621451537084-482c73073a0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"}
+            ],
+            western: [
+                {id: 1, title: "Gambella National Park", desc: "Wetlands and wildlife", img: "1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 2, title: "Blue Nile Falls", desc: "Tis Issat - The Smoking Water", img: "https://images.unsplash.com/photo-1567947382177-04094bb9f3d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"},
+                {id: 3, title: "Bale Mountains", desc: "Ethiopian wolf habitat", img: "/home/abdulselamnezif1/Gallery/Gallery/Bale mountain.jpg=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 4, title: "Jimma", desc: "Coffee origin and palace", img: "https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"},
+                {id: 5, title: "Metu Forest", desc: "Coffee forests and birds", img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 6, title: "Baro River", desc: "Navigation and wildlife", img: "https://images.unsplash.com/photo-1567947382177-04094bb9f3d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"}
+            ],
+            central: [
+                {id: 1, title: "Addis Ababa", desc: "Capital and diplomatic hub", img: "agelgil.jpg-ixib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 2, title: "Entoto Mountain", desc: "Viewpoint and historical sites", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Addis_in_night.jpg/330px-Addis_in_night.jpgixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"},
+                {id: 3, title: "Debre Libanos", desc: "Monastery and Portuguese Bridge", img: "https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 4, title: "Mount Zuquala", desc: "Volcanic crater lake", img: "https://images.unsplash.com/photo-1589561454227-7634ccebc45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"},
+                {id: 5, title: "Wonchi Crater Lake", desc: "Natural beauty and hiking", img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+                {id: 6, title: "Menagesha Forest", desc: "Oldest state forest in Africa", img: "/home/abdulselamnezif1/Gallery/Gallery/Nature.jpg=rb-4.0.3&auto=format&fit=crop&w=500&q=60"}
+            ]
+        };
+        
+        // Pagination state
+        let currentRoute = 'northern';
+        let currentPage = 1;
+        const itemsPerPage = 3;
+        
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load initial route
+            loadRouteContent('northern', 1);
+            
+            // Setup tab click events
+            document.querySelectorAll('#routeTab button').forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const route = this.getAttribute('data-bs-target').replace('#', '');
+                    currentRoute = route;
+                    currentPage = 1;
+                    loadRouteContent(route, 1);
+                });
+            });
+            
+            // Initialize carousel
+            const carousel = new bootstrap.Carousel(document.getElementById('attractionsCarousel'), {
+                interval: 5000,
+                wrap: true
+            });
+            
+            // Contact form submission
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! We will respond to you shortly.');
+                this.reset();
+            });
+            
+            // Newsletter subscription
+            document.getElementById('subscribeBtn').addEventListener('click', function() {
+                const email = document.getElementById('newsletterEmail').value;
+                if (email && email.includes('@')) {
+                    alert('Thank you for subscribing to our newsletter!');
+                    document.getElementById('newsletterEmail').value = '';
+                } else {
+                    alert('Please enter a valid email address.');
+                }
+            });
+            
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 70,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+        
+        // Function to load route content with pagination
+        function loadRouteContent(route, page) {
+            const contentContainer = document.getElementById(`${route}-content`);
+            const paginationContainer = document.getElementById('pagination-controls');
+            
+            // Get data for current route
+            const attractions = attractionsData[route];
+            const totalPages = Math.ceil(attractions.length / itemsPerPage);
+            
+            // Calculate start and end indices
+            const startIndex = (page - 1) * itemsPerPage;
+            const endIndex = Math.min(startIndex + itemsPerPage, attractions.length);
+            const pageAttractions = attractions.slice(startIndex, endIndex);
+            
+            // Clear current content
+            contentContainer.innerHTML = '';
+            
+            // Add attraction cards
+            pageAttractions.forEach(attraction => {
+                const col = document.createElement('div');
+                col.className = 'col-lg-4 col-md-6';
+                col.innerHTML = `
+                    <div class="card attraction-card h-100">
+                        <img src="${attraction.img}" class="card-img-top attraction-img" alt="${attraction.title}">
+                        <div class="card-body">
+                            <h5 class="card-title">${attraction.title}</h5>
+                            <p class="card-text">${attraction.desc}</p>
+                            <a href="#contact" class="btn btn-outline-primary">Inquire Now</a>
+                        </div>
+                    </div>
+                `;
+                contentContainer.appendChild(col);
+            });
+            
+            // Update pagination controls
+            paginationContainer.innerHTML = '';
+            
+            // Previous button
+            const prevLi = document.createElement('li');
+            prevLi.className = `page-item ${page === 1 ? 'disabled' : ''}`;
+            prevLi.innerHTML = `<a class="page-link" href="#" data-page="${page-1}">Previous</a>`;
+            paginationContainer.appendChild(prevLi);
+            
+            // Page numbers
+            for (let i = 1; i <= totalPages; i++) {
+                const pageLi = document.createElement('li');
+                pageLi.className = `page-item ${i === page ? 'active' : ''}`;
+                pageLi.innerHTML = `<a class="page-link" href="#" data-page="${i}">${i}</a>`;
+                paginationContainer.appendChild(pageLi);
+            }
+            
+            // Next button
+            const nextLi = document.createElement('li');
+            nextLi.className = `page-item ${page === totalPages ? 'disabled' : ''}`;
+            nextLi.innerHTML = `<a class="page-link" href="#" data-page="${page+1}">Next</a>`;
+            paginationContainer.appendChild(nextLi);
+            
+            // Add click events to pagination links
+            paginationContainer.querySelectorAll('.page-link').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const pageNum = parseInt(this.getAttribute('data-page'));
+                    if (pageNum && pageNum !== currentPage) {
+                        currentPage = pageNum;
+                        loadRouteContent(currentRoute, currentPage);
+                        
+                        // Scroll to attractions section
+                        document.getElementById('attractions').scrollIntoView({behavior: 'smooth'});
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3A Tour & Travel</title>
+<style>
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+header { background:#c1972e; color:rgb(54, 47, 47); padding:20px; text-align:center; }
+nav { display:flex; justify-content:flex-end; padding:10px; background:gold; }
+nav select { padding:5px; }
+section { padding:20px; }
+.carousel { display:flex; overflow-x:auto; scroll-behavior:smooth; }
+.carousel-item { min-width:300px; margin-right:10px; background:#f0f0f0; border-radius:10px; padding:10px; }
+form { display:flex; flex-direction:column; max-width:400px; margin:auto; }
+input, textarea, select, button { margin:5px 0; padding:10px; border-radius:5px; border:1px solid #ccc; }
+button { background:purple; color:orange; border:none; cursor:pointer; }
+button:hover { background:#1B4F72; }
+.footer { background:#191b1d; color:rgb(255, 255, 255); text-align:center; padding:10px; }
+</style>
+</head>
+<body>
+
+<header>
+<h1 id="heroTitle">Explore Ethiopia with 3A Tour & Travel</h1>
+<p id="heroDesc">Discover cultural, natural, and adventure destinations across Ethiopia</p>
+</header>
+
+<nav>
+<select id="languageSelect">
+<option value="en">English</option>
+<option value="am">Amharic</option>
+<option value="om">Oromo</option>
+<option value="ti">Tigrinya</option>
+<option value="so">Somali</option>
+<option value="es">Spanish</option>
+<option value="fr">French</option>
+<option value="de">German</option>
+<option value="zh">Chinese</option>
+</select>
+</nav>
+
+<section>
+<h2 id="routesTitle">Our Main Routes</h2>
+<div id="routesContainer"></div>
+</section>
+<section>
+<h2 id="contactTitle">Contact Us</h2>
+<form id="contactForm">
+<input type="text" id="name" placeholder="Name" required>
+<input type="email" id="email" placeholder="Email" required>
+<textarea id="message" placeholder="Message" required></textarea>
+<button type="submit" id="submitBtn">Send</button>
+</form>
+</section>
+
+<div class="footer" id="footerText">3A Tour & Travel © 2026 | Email: abdulselamnezif1@gmail.com | Phone: 0940320935</div>
+
+<script>
+const translations = {
+heroTitle:{en:"Explore Ethiopia with 3A Tour & Travel", am:"ከ3A ቱርና ትራቭል ጋር ኢትዮጵያን ያስሱ", om:"Itoophiyaa 3A Tour & Travel waliin Dubbisi", ti:"ከ3A ቱርንና ትራቭል ጋር ኢትዮጵያን ይጎብኙ", so:"Soo booqo Itoobiya 3A Tour & Travel", es:"Explora Etiopía con 3A Tour & Travel", fr:"Découvrez l'Éthiopie avec 3A Tour & Travel", de:"Entdecken Sie Äthiopien mit 3A Tour & Travel", zh:"与3A旅游探索埃塞俄比亚"},
+heroDesc:{en:"Discover cultural, natural, and adventure destinations across Ethiopia", am:"ባህላዊ፣ ተፈጥሮ፣ እና የፈረስ ጉዞ መዳረሻዎችን ያግኙ", om:"Bakka aadaa, uumamaa fi imala bashannanaa Itoophiyaa keessa jiran", ti:"ባህላዊ፣ ተፈጥሮ፣ እና የፈረስ ጉዞ መዳረሻዎችን ይጎብኙ", so:"Soo ogow meelaha dhaqanka, dabiiciga iyo dalxiiska Itoobiya", es:"Descubre destinos culturales, naturales y de aventura en Etiopía", fr:"Découvrez des destinations culturelles, naturelles et d'aventure en Éthiopie", de:"Entdecken Sie kulturelle, natürliche und Abenteuerziele in Äthiopien", zh:"探索埃塞俄比亚的文化、自然和冒险目的地"},
+contactTitle:{en:"Contact Us", am:"አግኙን", om:"Nu qunnami", ti:"አግኙን", so:"Nala soo xiriir", es:"Contáctenos", fr:"Contactez-nous", de:"Kontaktieren Sie uns", zh:"联系我们"},
+submitBtn:{en:"Send", am:"አስገባ", om:"Ergaa", ti:"አስገባ", so:"Dir", es:"Enviar", fr:"Envoyer", de:"Senden", zh:"发送"}
+};
+
+const attractionsData = {
+northern:[
+{title:{en:"Lalibela Rock Churches", am:"ላሊበላ ቅዱሳን ቤተ ክርስቲያኖች", om:"Lalibela Caasa Waaqayyoo", ti:"ላሊበላ ቤተ ክርስቲያኖች", so:"Kaniisadaha dhagaxa Lalibela", es:"Iglesias de roca de Lalibela", fr:"Églises rupestres de Lalibela", de:"Felsenkirchen von Lalibela", zh:"拉利贝拉岩石教堂"}, desc:{en:"11 medieval monolithic cave churches", am:"11 ከመካከለኛው ዘመን የተሠሩ ቅንጹ ቤተ ክርስቲያኖች", om:"11 koorniyaa dhagaa keessaa kan ijaarame", ti:"11 ቅንጹ ቤተ ክርስቲያኖች", so:"11 kaniisadood oo qalcad dhexe ah", es:"11 iglesias monolíticas medievales", fr:"11 églises monolithiques médiévales", de:"11 mittelalterliche monolithische Höhlenkirchen", zh:"11座中世纪单体岩洞教堂"}, img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgVJFFGLMj-QAEz8mfNcemoFe2NdwDG9wzwg&s=format&fit=crop&w=300&q=50"},
+{title:{en:"Axum Obelisks", am:"አክሱም ኦቤሊስኮች", om:"Axum Obelisks", ti:"አክሱም ኦቤሊስኮች", so:"Axum Obelisks", es:"Obeliscos de Axum", fr:"Obélisques d'Axoum", de:"Axum-Obelisken", zh:"阿克苏姆方尖碑"}, desc:{en:"Ancient stone obelisks and ruins", am:"የጥንታዊ ድንጋይ ኦቤሊስኮች እና ሐውልቶች", om:"Dhagaa durii fi ijaarsa durii", ti:"ድንጋይ ኦቤሊስኮች እና ቅንጹ", so:"Qalcad iyo dhagaxyo qadiimi ah", es:"Antiguos obeliscos y ruinas de piedra", fr:"Anciens obélisques et ruines en pierre", de:"Alte Steinobeliske und Ruinen", zh:"古老的石制方尖碑和遗址"}, img:" https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Rome_Stele.jpg/200px-Rome_Stele.jpg?auto=format&fit=crop&w=250&q=50"}
+],
+southern:[
+{title:{en:"Omo Valley Tribes", am:"የኦሞ ቸርቻ ሕዝቦች", om:"Hawaasa Omo", ti:"የኦሞ ሕዝቦች", so:"Qowmiyadaha Dooxada Omo", es:"Tribus del Valle de Omo", fr:"Tribus de la vallée de l'Omo", de:"Stämme im Omo-Tal", zh:"奥莫河谷部落"}, desc:{en:"Colorful tribal cultures along the Omo River", am:"በኦሞ ወንዝ ዳር ላይ ባህላዊ ቀለማት ሕዝቦች", om:"Aadaawwan garaagaraa laga Omo keessa jiran", ti:"ባህላዊ ቀለማት ሕዝቦች በኦሞ ወንዝ", so:"Dhaqamo dhaqameedyo midabo leh", es:"Culturas tribales coloridas a lo largo del río Omo", fr:"Cultures tribales colorées le long du fleuve Omo", de:"Bunte Stammeskulturen entlang des Omo-Flusses", zh:"奥莫河沿岸多彩的部落文化"}, img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCU-ggORYuOTG4RmjxNuswHOp30Xlp3LvbTQ&s?auto=format&fit=crop&w=300&q=50"}
+]};
+
+let currentLang = 'en';
+
+const routesContainer = document.getElementById('routesContainer');
+
+function loadRoutes(){
+routesContainer.innerHTML='';
+for(const route in attractionsData){
+  const routeDiv = document.createElement('div');
+  routeDiv.innerHTML=`<h3>${route.charAt(0).toUpperCase()+route.slice(1)}</h3><div class='carousel'>${attractionsData[route].map(attraction=>`<div class='carousel-item'><img src='${attraction.img}' style='width:100%;border-radius:10px;'><h4>${attraction.title[currentLang]}</h4><p>${attraction.desc[currentLang]}</p></div>`).join('')}</div>`;
+  routesContainer.appendChild(routeDiv);
+}
+}
+
+function translateText(){
+document.getElementById('heroTitle').innerText = translations.heroTitle[currentLang];
+document.getElementById('heroDesc').innerText = translations.heroDesc[currentLang];
+document.getElementById('contactTitle').innerText = translations.contactTitle[currentLang];
+document.getElementById('submitBtn').innerText = translations.submitBtn[currentLang];
+loadRoutes();
+}
+
+document.getElementById('languageSelect').addEventListener('change', e=>{
+currentLang = e.target.value;
+translateText();
+});
+
+document.getElementById('contactForm').addEventListener('submit', e=>{
+e.preventDefault();
+alert('Message sent!');
+document.getElementById('contactForm').reset();
+});
+
+loadRoutes();
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact and Booking Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #218838;
+        }
+        .social-media {
+            margin-top: 20px;
+        }
+        .social-media a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Booking Form</h2>
+    <form action="submit_booking.php" method="POST">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="date">Booking Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+            <label for="time">Booking Time:</label>
+            <input type="time" id="time" name="time" required>
+        </div>
+        <div class="form-group">
+            <label for="requests">Special Requests:</label>
+            <textarea id="requests" name="requests" rows="4"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Submit Booking</button>
+        </div>
+    </form>
+</div>
+
+<div class="form-container">
+    <h2>Reservation</h2>
+    <form action="submit_reservation.php" method="POST">
+        <div class="form-group">
+            <label for="res_name">Full Name:</label>
+            <input type="text" id="res_name" name="res_name" required>
+        </div>
+        <div class="form-group">
+            <label for="res_email">Email:</label>
+            <input type="email" id="res_email" name="res_email" required>
+        </div>
+        <div class="form-group">
+            <label for="res_date">Reservation Date:</label>
+            <input type="date" id="res_date" name="res_date" required>
+        </div>
+        <div class="form-group">
+            <label for="res_time">Reservation Time:</label>
+            <input type="time" id="res_time" name="res_time" required>
+        </div>
+        <div class="form-group">
+            <button type="submit">Submit Reservation</button>
+        </div>
+    </form>
+</div>
+
+<div class="form-container">
+    <h2>Information Query</h2>
+    <form action="submit_query.php" method="POST">
+        <div class="form-group">
+            <label for="query_name">Full Name:</label>
+            <input type="text" id="query_name" name="query_name" required>
+        </div>
+        <div class="form-group">
+            <label for="query_email">Email:</label>
+            <input type="email" id="query_email" name="query_email" required>
+        </div>
+        <div class="form-group">
+            <label for="query_message">Your Query:</label>
+            <textarea id="query_message" name="query_message" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Submit Query</button>
+        </div>
+    </form>
+</div>
+
+<div class="form-container">
+    <h2>Email Send Form</h2>
+    <form action="send_email.php" method="POST">
+        <div class="form-group">
+            <label for="email_subject">Subject:</label>
+            <input type="text" id="email_subject" name="email_subject" required>
+        </div>
+        <div class="form-group">
+            <label for="email_body">Message:</label>
+            <textarea id="email_body" name="email_body" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Send Email</button>
+        </div>
+    </form>
+</div>
+
+<div class="form-container">
+    <h2>Major Contact Form</h2>
+    <form action="submit_contact.php" method="POST">
+        <div class="form-group">
+            <label for="contact_name">Full Name:</label>
+            <input type="text" id="contact_name" name="contact_name" required>
+        </div>
+        <div class="form-group">
+            <label for="contact_email">Email:</label>
+            <input type="email" id="contact_email" name="contact_email" required>
+        </div>
+        <div class="form-group">
+            <label for="contact_message">Message:</label>
+            <textarea id="contact_message" name="contact_message" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Submit Contact</button>
+        </div>
+    </form>
+</div>
+
+<div class="social-media">
+    <h3>Follow Us:</h3>
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+</div>
+
+</body>
+</html>
+
 
 
 
